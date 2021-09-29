@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1280px;
+  margin-top: 20px;
+  text-align: initial;
+}
+
+.imgConfig {
+  background-size: 100% 100%;
+  background-image: url("../public/svg/logo-principal.svg");
+  width: 500px;
+  height: 500px;
+}
+
+.img {
+  border: 1px solid transparent;
+}
+
+.descricao h2 {
+  font-family: DMSans-Bold;
+  font-size: 36px;
+  max-width: 250px;
+}
+
+.descricao span {
+  display: block;
+  color: #828282;
+  margin: 20px 0 20px 0;
+}
+
+.cv {
+  width: 145px;
+  height: 45px;
+  background: #00df5e;
+  border: none;
+  cursor: pointer;
+  margin-right: 15px;
+  transition: 0.5s;
+}
+
+.cv:hover {
+  background: #029c42;
+}
+
+.contato {
+  width: 157px;
+  height: 45px;
+  background: transparent;
+  border: 1px solid #333333;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.contato:hover {
+  background: #000000;
+}

@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1280px;
+  margin-top: 20px;
+}
+
+.menu p {
+  font-size: 26px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  padding: 5px;
+}
+
+.menu ul li a {
+  font-size: 18px;
+}
+
+.menu ul li a:hover {
+  border-bottom: 1px solid #f9f9f9;
+}

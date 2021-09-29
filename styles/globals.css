@@ -1,9 +1,21 @@
+@font-face {
+  font-family: DMSans;
+  src: url("../public/font/DMSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: DMSans-Bold;
+  src: url("../public/font/DMSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: DMSans-Medium;
+  src: url("../public/font/DMSans-Medium.ttf");
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, DMSans;
 }
 
 a {
@@ -11,6 +23,14 @@ a {
   text-decoration: none;
 }
 
+ul,
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
