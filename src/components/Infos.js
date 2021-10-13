@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "/styles/Infos.module.css";
 
-const Infos = () => {
+export default function Infos(props) {
   return (
     <>
       <div className={styles.infos}>
-        <h2 className={styles.h2}>Sobre mim</h2>
+        <h2 className="h2Titulo">Sobre mim</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -18,22 +18,22 @@ const Infos = () => {
       <div className={styles.contato}>
         <ul>
           <li>
-            <img src="../../public/svg/smile.svg" />
-            <h3>Menu Nome</h3>
+            <img src="https://www.datocms-assets.com/56146/1633041980-smile.svg" />
+            <h3>Meu Nome</h3>
             <span>André Rolim</span>
           </li>
           <li>
-            <img src="../../public/svg/mail.svg" />
+            <img src="https://www.datocms-assets.com/56146/1633041907-mail.svg" />
             <h3>E-mail</h3>
             <span>andrel.rolimj@gmail.com</span>
           </li>
           <li>
-            <img src="../../public/svg/instagram.svg" />
+            <img src="https://www.datocms-assets.com/56146/1633041863-instagram.svg" />
             <h3>Instagram</h3>
             <span>@andrelrj</span>
           </li>
           <li>
-            <img src="../../public/svg/phone.svg" />
+            <img src="https://www.datocms-assets.com/56146/1633041943-phone.svg" />
             <h3>Telefone</h3>
             <span>(11) 99999-9999</span>
           </li>
@@ -41,6 +41,4 @@ const Infos = () => {
       </div>
     </>
   );
-};
-
-export default Infos;
+}

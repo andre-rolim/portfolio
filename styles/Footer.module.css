@@ -1,0 +1,14 @@
+.footer {
+  height: 60px;
+  background-color: #212121;
+  margin-bottom: 20px;
+}
+
+.footer span {
+  position: relative;
+  top: 30%;
+}
+
+.footer span:nth-of-type(even) {
+  color: green;
+}

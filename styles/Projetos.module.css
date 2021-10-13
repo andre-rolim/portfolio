@@ -1,0 +1,25 @@
+.projetos ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.projetos ul li {
+  width: calc(25% - 20px);
+  height: 280px;
+  background: #828282;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.projetos ul li:hover {
+  position: relative;
+  top: -5px;
+  left: -5px;
+  width: 310px;
+  height: 290px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}

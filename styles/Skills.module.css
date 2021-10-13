@@ -1,0 +1,35 @@
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.skills li {
+  width: 150px;
+  height: 150px;
+  background: #212121;
+  border: 1px solid #333333;
+  transition: 0.5s;
+}
+
+.skills li:hover {
+  position: relative;
+  top: -10px;
+  transition: 0.5s;
+}
+
+.skills img {
+  margin-top: 24%;
+}
+
+.skills li:nth-child(4) {
+  padding-top: 13px;
+}
+
+.skills li:nth-child(5) {
+  padding-top: 4px;
+}
+
+.skills li:last-child {
+  padding-top: 13px;
+}

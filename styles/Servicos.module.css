@@ -1,0 +1,36 @@
+.servicos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.servicos li {
+  width: 30%;
+  background-color: #212121;
+  border: 1px solid #333333;
+  border-bottom: 5px solid #00df5e;
+  transition: 0.3s;
+}
+
+.servicos li:hover {
+  position: relative;
+  top: -10px;
+  transition: 0.3s;
+}
+
+.servicos li img {
+  position: relative;
+  top: 15%;
+  right: 38%;
+}
+
+.servicos li p {
+  width: 120px;
+  padding-top: 40px;
+  margin: 30px 0;
+  margin-left: 30px;
+  font-size: 32px;
+  color: #828282;
+  text-align: start;
+}

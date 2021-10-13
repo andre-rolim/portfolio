@@ -15,7 +15,10 @@ const Main = () => {
         </button>
       </div>
       <div className={styles.img}>
-        <img className={styles.imgConfig} alt="" />
+        <img
+          src="https://www.datocms-assets.com/56146/1634162197-undrawlostonlinereupmy-1logo.png"
+          alt=""
+        />
       </div>
     </section>
   );

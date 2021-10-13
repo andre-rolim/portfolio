@@ -3,20 +3,17 @@
   justify-content: space-between;
   align-items: center;
   min-width: 1280px;
-  margin-top: 20px;
+  margin-top: 120px;
+  margin-bottom: 150px;
   text-align: initial;
 }
 
-.imgConfig {
+/*.imgConfig {
   background-size: 100% 100%;
-  background-image: url("../public/svg/logo-principal.svg");
+  background-image: url("https://www.datocms-assets.com/56146/1634162197-undrawlostonlinereupmy-1logo.png");
   width: 500px;
   height: 500px;
-}
-
-.img {
-  border: 1px solid transparent;
-}
+}*/
 
 .descricao h2 {
   font-family: DMSans-Bold;

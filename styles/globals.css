@@ -34,3 +34,10 @@ li {
   padding: 0;
   margin: 0;
 }
+
+.h2Titulo {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 32px;
+  font-family: DMSans-Bold;
+}

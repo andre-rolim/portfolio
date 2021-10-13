@@ -1,25 +1,37 @@
-.h2 {
-  font-size: 32px;
-  margin-top: 100px;
-  margin-bottom: 30px;
-}
-
 .infos {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 745px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
+}
+
+.infos p {
+  color: #828282;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
 }
 
 .contato ul {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .contato ul li {
-  margin: 0 80px;
+  width: 25%;
+  height: 120px;
+  transition: 0.9s;
+  padding-top: 15px;
+}
+
+.contato ul li:hover {
+  position: relative;
+  top: -10px;
+  background: #3b3b3b;
+  transition: 0.9s;
 }
 
 .contato h3 {
@@ -33,7 +45,10 @@
 }
 
 .contato img {
-  width: 32px;
-  height: 32px;
-  background-size: 100% 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.contato img svg {
+  background: transparent;
 }
