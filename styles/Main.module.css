@@ -54,3 +54,18 @@
 .contato:hover {
   background: #000000;
 }
+
+@media (max-width: 700px) {
+  .main {
+    max-width: 700px;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .descricao {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .descricao h2 {
+    max-width: 100%;
+  }
+}

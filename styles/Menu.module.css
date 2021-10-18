@@ -25,3 +25,11 @@
 .menu ul li a:hover {
   border-bottom: 1px solid #f9f9f9;
 }
+
+@media (max-width: 700px) {
+  .menu {
+    min-width: 700px;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
