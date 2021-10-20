@@ -34,3 +34,29 @@
   color: #828282;
   text-align: start;
 }
+
+@media (max-width: 700px) {
+  .main {
+    max-width: 700px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+  }
+  .servicos {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .servicos li {
+    width: 50vw;
+    margin-bottom: 10px;
+  }
+  .servicos li:hover {
+    top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    max-width: 480px;
+  }
+}

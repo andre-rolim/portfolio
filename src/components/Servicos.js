@@ -3,7 +3,7 @@ import styles from "/styles/Servicos.module.css";
 
 const Servicos = () => {
   return (
-    <section>
+    <section className={styles.main}>
       <h2 className="h2Titulo">Serviços</h2>
       <ul className={styles.servicos}>
         <li>

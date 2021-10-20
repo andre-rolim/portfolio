@@ -33,3 +33,33 @@
 .skills li:last-child {
   padding-top: 13px;
 }
+
+@media (max-width: 700px) {
+  .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .skills li {
+    margin: 2px;
+  }
+  .skills li:hover {
+    top: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .skills {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .skills li {
+    margin: 2px;
+  }
+  .skills li:hover {
+    top: 0;
+  }
+}
