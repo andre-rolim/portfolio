@@ -50,9 +50,9 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 440px) {
   .skills {
-    max-width: 500px;
+    max-width: 430px;
     margin: 0 auto;
     margin-bottom: 50px;
   }

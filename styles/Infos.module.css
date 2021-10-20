@@ -72,3 +72,12 @@
     width: 50%;
   }
 }
+
+@media (max-width: 440px) {
+  .contato {
+    max-width: 430px;
+  }
+  .infos p {
+    max-width: 430px;
+  }
+}

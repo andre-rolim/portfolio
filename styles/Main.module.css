@@ -69,3 +69,12 @@
     max-width: 100%;
   }
 }
+
+@media (max-width: 440px) {
+  .main {
+    max-width: 430px;
+  }
+  .descricao h2 {
+    font-size: 30px;
+  }
+}
