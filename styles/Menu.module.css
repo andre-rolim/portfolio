@@ -28,7 +28,7 @@
 
 @media (max-width: 700px) {
   .menu {
-    min-width: 700px;
+    max-width: 700px;
     justify-content: center;
     flex-direction: column;
   }
