@@ -60,3 +60,18 @@
     max-width: 480px;
   }
 }
+
+@media (max-width: 320px) {
+  .servicos li img {
+    position: relative;
+    top: 15%;
+    right: 20%;
+  }
+  .servicos li p {
+    width: 120px;
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    left: -10px;
+  }
+}

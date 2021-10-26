@@ -25,7 +25,7 @@ export default function Infos(props) {
           <li>
             <img src="https://www.datocms-assets.com/56146/1633041907-mail.svg" />
             <h3>E-mail</h3>
-            <span>andrel.rolimj@gmail.com</span>
+            <p>andrel.rolimj@gmail.com</p>
           </li>
           <li>
             <img src="https://www.datocms-assets.com/56146/1633041863-instagram.svg" />
