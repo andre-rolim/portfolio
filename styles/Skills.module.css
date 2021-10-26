@@ -51,8 +51,12 @@
 }
 
 @media (max-width: 500px) {
+  .mainSkills {
+    width: 100vw;
+    justify-self: center;
+  }
   .skills {
-    max-width: 490px;
+    width: 100vw;
     margin: 0 auto;
     margin-bottom: 50px;
   }
@@ -61,11 +65,5 @@
   }
   .skills li:hover {
     top: 0;
-  }
-}
-
-@media (max-width: 440px) {
-  .skills {
-    max-width: 430px;
   }
 }

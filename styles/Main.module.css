@@ -58,7 +58,7 @@
 
 @media (max-width: 700px) {
   .main {
-    max-width: 700px;
+    width: 95vw;
     justify-content: center;
     flex-direction: column-reverse;
   }
@@ -72,9 +72,6 @@
 }
 
 @media (max-width: 440px) {
-  .main {
-    max-width: 430px;
-  }
   .descricao h2 {
     font-size: 30px;
   }
@@ -82,7 +79,6 @@
 
 @media (max-width: 360px) {
   .main {
-    max-width: 310px;
     justify-self: center;
     overflow: hidden;
   }
