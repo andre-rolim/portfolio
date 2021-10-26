@@ -29,9 +29,11 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .footer {
-    max-width: 310px;
+    max-width: 330px;
+    width: 100vw;
+    overflow: hidden;
   }
   .footer span {
     font-size: 14px;

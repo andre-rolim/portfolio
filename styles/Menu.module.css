@@ -35,14 +35,17 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .menu {
-    max-width: 310px;
+    max-width: 330px;
+    width: 100vw;
     justify-content: center;
     justify-self: center;
+    overflow: hidden;
   }
   .menu ul {
     max-width: 315px;
     align-items: center;
+    overflow: hidden;
   }
 }
